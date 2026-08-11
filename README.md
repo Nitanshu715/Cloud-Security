@@ -35,7 +35,6 @@ The experiments focus on understanding how cloud resources are isolated, how ide
 |---|---|---|
 | 01 | **AWS VPC Creation** — Create and configure a Virtual Private Cloud | ✅ Completed |
 | 02 | **IAM Security & Policy Enforcement** — Configure users, permissions, and explicit Deny policies | ✅ Completed |
-| 03 | Not Conducted | ⏸️ Cancelled |
 
  
 

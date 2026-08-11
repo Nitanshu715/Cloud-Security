@@ -9,11 +9,6 @@
  
 
 ![AWS](https://img.shields.io/badge/AWS-VPC-orange?style=for-the-badge&logo=amazonaws)
-
-![Region](https://img.shields.io/badge/Region-ap--south--1-blue?style=for-the-badge)
-
-![CIDR](https://img.shields.io/badge/CIDR-10.0.0.0%2F16-green?style=for-the-badge)
-
  
 
 ---

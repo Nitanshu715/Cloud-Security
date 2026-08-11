@@ -2,7 +2,11 @@
 
  
 
-AWS-based laboratory experiments for **Cloud Security**, focusing on identity, access control, permissions, and secure resource management.
+> **AWS practical laboratory repository for Cloud Security**
+
+>
+
+> A structured collection of experiments covering AWS networking, identity, access control, authorization, and security policies.
 
  
 
@@ -10,15 +14,15 @@ AWS-based laboratory experiments for **Cloud Security**, focusing on identity, a
 
  
 
-## 📚 Subject
+## 📌 Overview
 
  
 
-**Cloud Security**
+This repository contains the practical work completed for the **Cloud Security** subject using the AWS Management Console.
 
  
 
-This repository contains the practical work completed for the Cloud Security laboratory, including AWS console-based experiments and their documentation.
+The experiments focus on understanding how cloud resources are isolated, how identities are authenticated and authorized, and how AWS IAM policies control access to cloud services.
 
  
 
@@ -30,27 +34,15 @@ This repository contains the practical work completed for the Cloud Security lab
 
  
 
-### Experiment 1 — Create a VPC in AWS
+| # | Experiment | Status |
 
- 
+|---|---|---|
 
-**Objective:**  
+| 01 | **AWS VPC Creation** — Create and configure a Virtual Private Cloud | ✅ Completed |
 
-Create and configure a Virtual Private Cloud (VPC) in AWS to understand the basic foundation of cloud networking and isolated AWS infrastructure.
+| 02 | **IAM Security & Policy Enforcement** — Configure users, permissions, and explicit Deny policies | ✅ Completed |
 
- 
-
-**Main concepts:**
-
-- Amazon VPC
-
-- CIDR ranges
-
-- Subnets
-
-- AWS networking
-
-- Private cloud networking concepts
+| 03 | — | ⏸️ Cancelled |
 
  
 
@@ -58,23 +50,47 @@ Create and configure a Virtual Private Cloud (VPC) in AWS to understand the basi
 
  
 
-### Experiment 2 — AWS IAM Authorization & Policy Enforcement
+## 🔐 Experiment 01 — AWS VPC
 
  
 
-**Objective:**  
-
-Create IAM users with different service permissions, verify their access, and implement an explicit security restriction using an IAM JSON policy.
+**Focus:** Cloud networking and network isolation
 
  
 
-**Main concepts:**
+### Covered
 
-- AWS IAM
+- Amazon VPC
+
+- IPv4 CIDR blocks
+
+- Virtual private networking
+
+- AWS network isolation
+
+- VPC configuration and verification
+
+ 
+
+📁 `experiment-1/`
+
+ 
+
+---
+
+ 
+
+## 🛡️ Experiment 02 — IAM Security
+
+ 
+
+**Focus:** Identity, authorization, and policy-based access control
+
+ 
+
+### Covered
 
 - IAM users
-
-- Authentication and authorization
 
 - EC2 permissions
 
@@ -84,21 +100,67 @@ Create IAM users with different service permissions, verify their access, and im
 
 - Custom IAM policies
 
-- `AmazonEC2FullAccess`
-
-- `AmazonS3FullAccess`
+- JSON policy structure
 
 - Explicit Deny
 
 - `s3:DeleteBucket`
 
-- Least privilege
+- Access verification
 
-- Access control
+- Least-privilege principles
 
  
 
-The experiment demonstrates that an **explicit Deny overrides an Allow**.
+### Practical Security Demonstration
+
+ 
+
+Two users were configured with service-specific permissions:
+
+ 
+
+```text
+
+User 1
+
+└── AmazonEC2FullAccess
+
+    └── EC2 access verified
+
+ 
+
+User 2
+
+└── AmazonS3FullAccess
+
+    └── S3 access verified
+
+         ↓
+
+    Custom policy added
+
+         ↓
+
+    Explicit Deny: s3:DeleteBucket
+
+         ↓
+
+    Bucket deletion blocked
+
+```
+
+ 
+
+This demonstrates an important AWS IAM rule:
+
+ 
+
+> **An explicit Deny overrides an Allow.**
+
+ 
+
+📁 `experiment-2/`
 
  
 
@@ -106,7 +168,61 @@ The experiment demonstrates that an **explicit Deny overrides an Allow**.
 
  
 
-## 📁 Repository Structure
+## ☁️ AWS Services Used
+
+ 
+
+| Service | Purpose |
+
+|---|---|
+
+| **Amazon VPC** | Virtual networking and resource isolation |
+
+| **AWS IAM** | Identity and access management |
+
+| **Amazon EC2** | Compute-resource authorization testing |
+
+| **Amazon S3** | Object-storage authorization testing |
+
+ 
+
+---
+
+ 
+
+## 🧠 Security Concepts
+
+ 
+
+The practical work reinforces:
+
+ 
+
+- Authentication vs. authorization
+
+- Identity-based access control
+
+- IAM policy evaluation
+
+- Allow vs. Explicit Deny
+
+- Least privilege
+
+- Permission boundaries and policy scope
+
+- Service-specific authorization
+
+- Secure cloud resource management
+
+- Network isolation
+
+ 
+
+---
+
+ 
+
+## 📂 Repository Structure
 
  
 
@@ -134,7 +250,7 @@ cloud-security/
 
  
 
-Screenshots and supporting documentation may also be stored inside the respective experiment directories.
+Each experiment directory contains its own detailed documentation and supporting material.
 
  
 
@@ -142,69 +258,24 @@ Screenshots and supporting documentation may also be stored inside the respectiv
 
  
 
-## 🛠️ Technologies & Services
+## 📊 Lab Progress
 
  
 
-- **AWS Management Console**
+```text
 
-- **Amazon VPC**
+Experiment 01   ████████████████████  100%
 
-- **AWS IAM**
+Experiment 02   ████████████████████  100%
 
-- **Amazon EC2**
-
-- **Amazon S3**
-
-- **IAM JSON Policies**
+```
 
  
 
----
+**Completed experiments:** 2  
 
- 
+**Cancelled experiments:** 1
 
-## 🔐 Key Security Concepts
-
- 
-
-This repository focuses on practical understanding of:
-
- 
-
-- Identity and access management
-
-- Authorization
-
-- Policy-based access control
-
-- Least privilege
-
-- Explicit Deny
-
-- Service-specific permissions
-
-- Secure cloud resource management
-
-- Basic AWS networking security
-
- 
-
----
-
- 
-
-## 📌 Experiment Status
-
- 
-
-| Experiment | Topic | Status |
-
-|---|---|---|
-
-| Experiment 1 | AWS VPC Creation | ✅ Completed |
-
-| Experiment 2 | IAM Authorization & Security | ✅ Completed |
  
 
 ---
@@ -215,11 +286,13 @@ This repository focuses on practical understanding of:
 
  
 
-**Nitanshu Tak**  
+**Nitanshu Tak**
+
+ 
 
 B.Tech — Computer Science Engineering  
 
-Cloud Computing & Virtualization Technology
+Major: Cloud Computing & Virtualization Technology
 
  
 
@@ -227,4 +300,4 @@ Cloud Computing & Virtualization Technology
 
  
 
-> 🔐 **Cloud Security Lab — AWS Practical Experiments**
+> 🔐 **Cloud Security Lab · AWS · Practical Learning**

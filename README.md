@@ -269,17 +269,6 @@ Experiment 01   ████████████████████  10
 Experiment 02   ████████████████████  100%
 
 ```
-
- 
-
-**Completed experiments:** 2  
-
-**Cancelled experiments:** 1
-
- 
-
----
-
  
 
 ## 👨‍💻 Author

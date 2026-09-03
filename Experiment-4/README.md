@@ -4,17 +4,11 @@
 > **AWS Cloud Security Practical | VPC Network Security | EC2 Security Groups | NACLs | Bastion SSH | Session Manager**
 
 
-[![AWS](https://img.shields.io/badge/AWS-Cloud%20Security-orange?logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+<p align="center">
 
-[![Amazon VPC](https://img.shields.io/badge/Amazon%20VPC-Networking-blue?logo=amazonaws&logoColor=white)](https://aws.amazon.com/vpc/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud%20Security-orange?logo=amazonaws&logoColor=white)](https://aws.amazon.com/) [![Amazon VPC](https://img.shields.io/badge/Amazon%20VPC-Networking-blue?logo=amazonaws&logoColor=white)](https://aws.amazon.com/vpc/) [![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-Compute-red?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/) [![Security Groups](https://img.shields.io/badge/Security%20Groups-Virtual%20Firewall-purple)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) [![Session Manager](https://img.shields.io/badge/SSM-Session%20Manager-success?logo=amazonaws&logoColor=white)](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html)
 
-[![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-Compute-red?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
-
-[![Security Groups](https://img.shields.io/badge/Security%20Groups-Virtual%20Firewall-purple)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
-
-[![Session Manager](https://img.shields.io/badge/SSM-Session%20Manager-success?logo=amazonaws&logoColor=white)](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html)
-
-
+</p>
 ---
 
 

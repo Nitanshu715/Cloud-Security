@@ -6,25 +6,7 @@
 
 <p align="center">
 
-
-![AWS](https://img.shields.io/badge/AWS-Cloud%20Security-orange?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![IAM](https://img.shields.io/badge/AWS-IAM-blue?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![VPC](https://img.shields.io/badge/Amazon-VPC-purple?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![EC2](https://img.shields.io/badge/Amazon-EC2-red?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![S3](https://img.shields.io/badge/Amazon-S3-yellow?style=for-the-badge&logo=amazons3&logoColor=white)
-
-![NACL](https://img.shields.io/badge/VPC-NACLs-darkgreen?style=for-the-badge)
-
-![SSM](https://img.shields.io/badge/AWS-Session%20Manager-success?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![Security](https://img.shields.io/badge/Focus-Cloud%20Security-success?style=for-the-badge)
-
-![Status](https://img.shields.io/badge/Lab-Completed-success?style=for-the-badge)
-
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Security-orange?style=for-the-badge&logo=amazonaws&logoColor=white) ![IAM](https://img.shields.io/badge/AWS-IAM-blue?style=for-the-badge&logo=amazonaws&logoColor=white) ![VPC](https://img.shields.io/badge/Amazon-VPC-purple?style=for-the-badge&logo=amazonaws&logoColor=white) ![EC2](https://img.shields.io/badge/Amazon-EC2-red?style=for-the-badge&logo=amazonaws&logoColor=white) ![S3](https://img.shields.io/badge/Amazon-S3-yellow?style=for-the-badge&logo=amazons3&logoColor=white) ![NACL](https://img.shields.io/badge/VPC-NACLs-darkgreen?style=for-the-badge) ![SSM](https://img.shields.io/badge/AWS-Session%20Manager-success?style=for-the-badge&logo=amazonaws&logoColor=white) ![Security](https://img.shields.io/badge/Focus-Cloud%20Security-success?style=for-the-badge) ![Status](https://img.shields.io/badge/Lab-Completed-success?style=for-the-badge)
 
 </p>
 

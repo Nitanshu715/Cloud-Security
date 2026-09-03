@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "s3:GetObject",
+                "s3:ListObjects",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::c222633a5621456l16525253t1w586075311024-bucket1-jhp8jczsdnpi",
+                "arn:aws:s3:::c222633a5621456l16525253t1w586075311024-bucket1-jhp8jczsdnpi/*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}
